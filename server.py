@@ -27,6 +27,6 @@ def home():
     emit('home','home',broadcast=True)
 
 if __name__=='__main__':
-    socketio.run()
+    socketio.run(app)
 
     
